@@ -1,0 +1,41 @@
+# Machine Learning Portfolio 🚀
+
+This repository contains my independent implementations of machine learning algorithms and feature engineering techniques developed during Hyperskill courses.
+
+## 1. Random Forest Classifier (from scratch)
+**Dataset:** Titanic (survival prediction)
+
+**Key Implementations:**
+* **Bagging:** Implemented Bootstrap aggregation to train diverse trees.
+* **Feature Subsampling:** Used `max_features='sqrt'` to ensure decorrelation between trees.
+* **Majority Voting:** Custom logic to aggregate predictions from the forest.
+* **Evaluation:** Optimized forest size by analyzing the accuracy curve.
+
+## 2. Custom K-Means Clustering
+**Dataset:** Wine (unsupervised grouping)
+
+**Key Implementations:**
+* **Centroid Optimization:** Iterative updates using Euclidean distance and convergence thresholds (`eps`).
+* **Optimal K Selection:** Evaluated clustering quality using the **Elbow Method (Inertia)** and **Silhouette Score**.
+* **Visualization:** Dimensionality reduction to compare predicted clusters with ground truth.
+
+## 3. House Classification (Feature Engineering)
+**Dataset:** House price categories
+
+**Key Focus:** Comparative analysis of categorical encoding techniques.
+* **One-Hot Encoding:** Applied to low-cardinality nominal data.
+* **Ordinal Encoding:** Used for preserving inherent order in specific features.
+* **Target Encoding:** Utilized the `category_encoders` library to handle high-cardinality features (Zip codes/Areas) by mapping them to target means.
+* **Performance:** Evaluated models using Macro F1-Score to account for class imbalance.
+
+---
+
+## Technical Stack
+* **Language:** Python 3.x
+* **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, Category Encoders, TQDM.
+
+## Setup
+To run these projects locally, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
