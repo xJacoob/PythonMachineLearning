@@ -1,7 +1,5 @@
 # Machine Learning Portfolio 🚀
 
-This repository contains my independent implementations of machine learning algorithms and feature engineering techniques developed during Hyperskill courses.
-
 ## 1. Random Forest Classifier (from scratch)
 **Dataset:** Titanic (survival prediction)
 
