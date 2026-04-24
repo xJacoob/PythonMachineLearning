@@ -32,8 +32,3 @@
 * **Language:** Python 3.x
 * **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, Category Encoders, TQDM.
 
-## Setup
-To run these projects locally, install the required dependencies:
-
-```bash
-pip install -r requirements.txt
