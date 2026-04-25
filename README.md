@@ -1,5 +1,5 @@
 # Machine Learning Portfolio 🚀
-
+# Projects from HyperSkill
 ## 1. Random Forest Classifier (from scratch)
 **Dataset:** Titanic (survival prediction)
 
