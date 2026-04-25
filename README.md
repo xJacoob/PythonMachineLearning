@@ -1,5 +1,5 @@
 # Machine Learning Portfolio 🚀
-# Projects from HyperSkill
+This project was developed as a part of the JetBrains Academy (Hyperskill) curriculum to practice and implement machine learning algorithms.
 ## 1. Random Forest Classifier (from scratch)
 **Dataset:** Titanic (survival prediction)
 
