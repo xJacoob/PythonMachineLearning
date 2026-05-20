@@ -26,6 +26,14 @@ This project was developed as a part of the JetBrains Academy (Hyperskill) curri
 * **Target Encoding:** Utilized the `category_encoders` library to handle high-cardinality features (Zip codes/Areas) by mapping them to target means.
 * **Performance:** Evaluated models using Macro F1-Score to account for class imbalance.
 
+## 4. Salary Prediction (Linear Regression)
+**Dataset:** Salaries
+
+**Key Implementations:**
+* **Correlation Check:** Found highly correlated variables (Age and Experience) using a correlation matrix.
+* **Feature Selection:** Used `itertools.combinations` to test which columns to drop to get the lowest MAPE score.
+* **Fixing Predictions:** Handled unrealistic negative salary predictions by replacing them with zeros and medians.
+
 ---
 
 ## Technical Stack
