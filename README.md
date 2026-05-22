@@ -1,5 +1,5 @@
 # Machine Learning Portfolio 🚀
-This project was developed as a part of the JetBrains Academy (Hyperskill) curriculum to practice and implement machine learning algorithms.
+This repository contains machine learning projects developed through as a part of JetBrains Academy curriculum, as well as independent challanges from platfroms like Kaggle.
 ## 1. Random Forest Classifier (from scratch)
 **Dataset:** Titanic (survival prediction)
 
@@ -34,6 +34,14 @@ This project was developed as a part of the JetBrains Academy (Hyperskill) curri
 * **Feature Selection:** Used `itertools.combinations` to test which columns to drop to get the lowest MAPE score.
 * **Fixing Predictions:** Handled unrealistic negative salary predictions by replacing them with zeros and medians.
 
+## 5. Digit Recognizer (First Kaggle Submission)
+Dataset: Kaggle Digit Recognizer (MNIST)
+
+Key Implementations:
+* Baseline Modeling: Trained an SGDClassifier as a strong foundational model for multiclass image classification.
+* Error Analysis: Computed and normalized a Confusion Matrix, zeroing out the diagonal to visually isolate and analyze specific model misclassifications (e.g., distinguishing 5s from 8s).
+* Model Evaluation: Verified model stability and performance using K-Fold cross-validation (`cross_val_predict`, `cross_val_score`) prior to touching the test set.
+* Deployment: Formatted and successfully submitted external predictions to the Kaggle platform, achieving an initial accuracy of ~89%.
 ---
 
 ## Technical Stack
