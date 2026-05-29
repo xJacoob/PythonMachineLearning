@@ -1,50 +1,25 @@
-# Machine Learning Portfolio 🚀
-This repository contains machine learning projects developed through as a part of JetBrains Academy curriculum, as well as independent challanges from platfroms like Kaggle.
-## 1. Random Forest Classifier (from scratch)
-**Dataset:** Titanic (survival prediction)
+# Machine Learning & Data Science Portfolio 🚀
 
-**Key Implementations:**
-* **Bagging:** Implemented Bootstrap aggregation to train diverse trees.
-* **Feature Subsampling:** Used `max_features='sqrt'` to ensure decorrelation between trees.
-* **Majority Voting:** Custom logic to aggregate predictions from the forest.
-* **Evaluation:** Optimized forest size by analyzing the accuracy curve.
+Hi! I am a second-year Computer Science student at the AGH University of Science and Technology, actively looking for a summer IT internship in Kraków. 
 
-## 2. Custom K-Means Clustering
-**Dataset:** Wine (unsupervised grouping)
+This repository contains my machine learning and data analysis projects. You will find both from-scratch algorithm implementations and solutions to various Kaggle challenges. I put a strong emphasis on clean code, proper environment management, and preventing data leakage by building robust data processing Pipelines.
 
-**Key Implementations:**
-* **Centroid Optimization:** Iterative updates using Euclidean distance and convergence thresholds (`eps`).
-* **Optimal K Selection:** Evaluated clustering quality using the **Elbow Method (Inertia)** and **Silhouette Score**.
-* **Visualization:** Dimensionality reduction to compare predicted clusters with ground truth.
+## 📂 Project Navigation
 
-## 3. House Classification (Feature Engineering)
-**Dataset:** House price categories
+### [1. Random Forest Classifier (from scratch)](/link_to_folder_1)
+Titanic survival prediction using a custom, from-scratch implementation of a Random Forest (Bagging, Feature Subsampling, Majority Voting).
 
-**Key Focus:** Comparative analysis of categorical encoding techniques.
-* **One-Hot Encoding:** Applied to low-cardinality nominal data.
-* **Ordinal Encoding:** Used for preserving inherent order in specific features.
-* **Target Encoding:** Utilized the `category_encoders` library to handle high-cardinality features (Zip codes/Areas) by mapping them to target means.
-* **Performance:** Evaluated models using Macro F1-Score to account for class imbalance.
+### [2. Custom K-Means Clustering](/link_to_folder_2)
+Unsupervised grouping on the Wine dataset. Includes centroid optimization and cluster evaluation using the Elbow Method (Inertia) and Silhouette Score.
 
-## 4. Salary Prediction (Linear Regression)
-**Dataset:** Salaries
+### [3. House Classification (Feature Engineering)](/link_to_folder_3)
+Comparative analysis of categorical encoding techniques (One-Hot, Ordinal, Target Encoding) optimized for the Macro F1-Score to account for class imbalance.
 
-**Key Implementations:**
-* **Correlation Check:** Found highly correlated variables (Age and Experience) using a correlation matrix.
-* **Feature Selection:** Used `itertools.combinations` to test which columns to drop to get the lowest MAPE score.
-* **Fixing Predictions:** Handled unrealistic negative salary predictions by replacing them with zeros and medians.
+### [4. Salary Prediction (Linear Regression)](/link_to_folder_4)
+Salary prediction utilizing a correlation matrix and feature selection (iterative dropping of variables to improve the MAPE score).
 
-## 5. Digit Recognizer (First Kaggle Submission)
-Dataset: Kaggle Digit Recognizer (MNIST)
+### [5. Digit Recognizer (MNIST)](/link_to_folder_5)
+Multiclass image classification using an SGDClassifier as a baseline, complemented by detailed error analysis using a normalized Confusion Matrix.
 
-Key Implementations:
-* Baseline Modeling: Trained an SGDClassifier as a strong foundational model for multiclass image classification.
-* Error Analysis: Computed and normalized a Confusion Matrix, zeroing out the diagonal to visually isolate and analyze specific model misclassifications (e.g., distinguishing 5s from 8s).
-* Model Evaluation: Verified model stability and performance using K-Fold cross-validation (`cross_val_predict`, `cross_val_score`) prior to touching the test set.
-* Deployment: Formatted and successfully submitted external predictions to the Kaggle platform, achieving an initial accuracy of ~89%.
----
-
-## Technical Stack
-* **Language:** Python 3.x
-* **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, Category Encoders, TQDM.
-
+### [6. Advanced House Price Prediction](/link_to_folder_6)
+Robust scikit-learn data processing Pipelines and optimization of regularized regression models (Ridge, Lasso, ElasticNet) to handle multicollinearity.
