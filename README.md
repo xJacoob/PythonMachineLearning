@@ -2,7 +2,7 @@
 
 ## 📂 Project Navigation
 
-### [1. Random Forest Classifier (from scratch)](/link_to_folder_1)
+### [1. Random Forest Classifier (from scratch)]
 Titanic survival prediction using a custom, from-scratch implementation of a Random Forest (Bagging, Feature Subsampling, Majority Voting).
 
 ### [2. Custom K-Means Clustering](/link_to_folder_2)
