@@ -1,9 +1,5 @@
 # Machine Learning & Data Science Portfolio 🚀
 
-Hi! I am a second-year Computer Science student at the AGH University of Science and Technology, actively looking for a summer IT internship in Kraków. 
-
-This repository contains my machine learning and data analysis projects. You will find both from-scratch algorithm implementations and solutions to various Kaggle challenges. I put a strong emphasis on clean code, proper environment management, and preventing data leakage by building robust data processing Pipelines.
-
 ## 📂 Project Navigation
 
 ### [1. Random Forest Classifier (from scratch)](/link_to_folder_1)
