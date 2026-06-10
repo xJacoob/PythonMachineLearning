@@ -20,5 +20,5 @@ Multiclass image classification using an SGDClassifier as a baseline, complement
 ### 6. Advanced House Price Prediction
 Robust scikit-learn data processing Pipelines and optimization of regularized regression models (Ridge, Lasso, ElasticNet) to handle multicollinearity.
 
-### 6. Spaceship Titanic
+### 7. Spaceship Titanic
 To be complete...
